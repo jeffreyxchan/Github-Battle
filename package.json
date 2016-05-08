@@ -1,0 +1,22 @@
+{
+  "name": "github-battle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-router": "^2.4.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.16.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
