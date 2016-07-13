@@ -50,7 +50,6 @@ var helpers = {
             return getUserInfo(username)
         })).then(function (info) {
             return info.map(function (user) {
-                console.log('user.data: ', user.data);
                 return user.data;
             })
         }).catch(function (err) {
