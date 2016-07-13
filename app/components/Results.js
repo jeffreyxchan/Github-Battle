@@ -5,6 +5,7 @@ var UserDetails = require('./UserDetails');
 var UserDetailsWrapper = require('./UserDetailsWrapper');
 var Link = require('react-router').Link;
 var MainContainer = require('../components/MainContainer');
+var Loading = require('./Loading');
 
 function StarOver () {
     return (
@@ -16,19 +17,25 @@ function StarOver () {
     )
 }
 
+function Tie (props) {
+    return (
+        <MainContainer>
+            <h1>It's a Tie!</h1>
+            <StarOver />
+        </MainContainer>
+    )
+}
+
 function Results (props) {
     if (props.isLoading === true) {
         return (
-            <p>LOADING</p>
+            <Loading />
         )
     }
     
     if (props.scores[0] === props.scores[1]) {
         return (
-            <MainContainer>    
-                <h1>It's a tie!</h1>
-                <StarOver />
-            </MainContainer>
+            <Tie scores={props.scores} playersInfo={props.playersInfo} />
         )
     }
     
