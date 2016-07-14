@@ -1,5 +1,5 @@
 {
-  "name": "gh-battle",
+  "name": "github-battle",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "start": "webpack-dev-server",
     "production": "webpack -p"
   },
-  "author": "Tyler McGinnis <tylermcginnis33@gmail.com> (http://tylermcginnis.com)",
-  "license": "ISC",
+  "author": "Jeffrey Chan",
+  "license": "",
   "dependencies": {
     "axios": "^0.9.0",
     "react": "^0.14.6",
