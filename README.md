@@ -1,9 +1,11 @@
 # Github-Battle
 
-Click <a href="https://jeffreyxchan.github.io/Github-Battle/" target="_blank">here</a> to view the final project on Github Pages.
+Demo the final product here: [Github Battle](https://jeffreyxchan.github.io/Github-Battle/ "Github Battle")
 
-An app built with <b>React.js</b>, <b>Node.js</b>, and <b>Webpack</b> that takes the usernames of two Github users and assigns each user a score based on their number of followers and their number of stars. The user with the higher score is deemed the winner.
+## Description
+An app built with **React.js**, **Node.js**, and **Webpack** that takes the usernames of two Github users and assigns each user a score based on their number of followers and their number of stars. The user with the higher score is deemed the winner.
 
-Run <code>npm install</code> to install this project's dependencies.
-Then run <code>npm run start</code> to start the webpack development environment.
-Visit <code>http://localhost:8080/</code> to view this project.
+## Setting up the Webpack Development Environment
+Run `npm install` to install this project's dependencies. <br>
+Run `npm run start` to start the webpack development environment. <br>
+Visit `localhost:8080` to view this project.
