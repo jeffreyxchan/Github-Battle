@@ -1,6 +1,6 @@
 # Github-Battle
 
-Checkout the full project hosted on Github Pages: <a href="jeffreyxchan.github.io/Github-Battle">Github Battle</a>
+Click <a href="https://jeffreyxchan.github.io/Github-Battle/" target="_blank">here</a> to the final project on Github Pages.
 
 An app built with <b>React.js</b>, <b>Node.js</b>, and <b>Webpack</b> that takes the usernames of two Github users and assigns each user a score based on their number of followers and their number of stars. The user with the higher score is deemed the winner.
 
