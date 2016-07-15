@@ -1,6 +1,6 @@
 # Github-Battle
 
-Demo the final product here: [Github Battle](https://jeffreyxchan.github.io/Github-Battle/ "Github Battle")
+Demo the final product here: [Github Battle](http://jeffreyxchan.github.io/Github-Battle/ "Github Battle")
 
 ## Description
 An app built with **React.js**, **Node.js**, and **Webpack** that takes the usernames of two Github users and assigns each user a score based on their number of followers and their number of stars. The user with the higher score is deemed the winner.
