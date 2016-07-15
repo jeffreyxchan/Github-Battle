@@ -1,5 +1,7 @@
 # Github-Battle
 
+Check out the full project on Github Pages: <a href="jeffreyxchan.github.io/Github-Battle">Github Battle</a>
+
 An app built with <b>React.js</b>, <b>Node.js</b>, and <b>Webpack</b> that takes the usernames of two Github users and assigns each user a score based on their number of followers and their number of stars. The user with the higher score is deemed the winner.
 
 Run <code>npm install</code> to install this project's dependencies. <br>
