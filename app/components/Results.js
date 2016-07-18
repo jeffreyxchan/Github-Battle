@@ -7,11 +7,11 @@ var Link = require('react-router').Link;
 var MainContainer = require('../components/MainContainer');
 var Loading = require('./Loading');
 
-function StarOver () {
+function StartOver () {
     return (
         <div className='col-sm-12' style={styles.space}>
             <Link to='/playerOne'>
-                <button type='button' className='btn btn-lg btn-danger'>Star Over</button>
+                <button type='button' className='btn btn-lg btn-danger'>Start Over</button>
             </Link>
         </div>
     )
@@ -20,8 +20,8 @@ function StarOver () {
 function Tie (props) {
     return (
         <MainContainer>
-            <h1>It's a Tie!</h1>
-            <StarOver />
+            <h1>It is a Tie!</h1>
+            <StartOver />
         </MainContainer>
     )
 }
@@ -53,7 +53,7 @@ function Results (props) {
                     <UserDetails score={props.scores[losingIndex]} info={props.playersInfo[losingIndex]} />
                 </UserDetailsWrapper>
             </div>
-            <StarOver />
+            <StartOver />
         </MainContainer>
     )
 }
